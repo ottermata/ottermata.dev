@@ -1,0 +1,43 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+ul {
+    @apply list-disc list-inside;
+}
+
+nav .pages a {
+    @apply px-2 py-1
+}
+
+nav .pages a:is(.active, :hover) {
+    @apply bg-gray-300
+}
+
+.content a {
+    @apply text-blue-600
+}
+
+.content a:visited {
+    @apply text-pink-900
+}
+
+.content h1 {
+    @apply text-5xl
+}
+
+.content h2 {
+    @apply text-3xl
+}
+
+.content h3 {
+    @apply text-xl
+}
+
+.content h4 {
+    @apply text-lg
+}
+
+.resume .contact .label {
+    @apply text-gray-500 float-right ml-1
+}
