@@ -1,13 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import {createBrowserRouter, RouterProvider} from "react-router-dom";
+import {createHashRouter, RouterProvider} from "react-router-dom";
 import {Root} from "./page/root/Root";
 import {ErrorPage} from "./page/error/ErrorPage";
 import {Resume} from "./page/resume/Resume";
 import {Index} from "./page/index/Index";
 
-const router = createBrowserRouter([
+const router = createHashRouter([
     {
         path: "/",
         element: <Root/>,
