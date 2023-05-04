@@ -53,7 +53,7 @@ export function Resume() {
                             title: "q.beyond AG",
                             subtitle: "Apprenticeship",
                             description: <>
-                                <h3>Used Languages & Software</h3>
+                                <h4>Used Languages & Software</h4>
                                 <ul>
                                     <li>Python</li>
                                     <li>PowerShell</li>
@@ -65,27 +65,27 @@ export function Resume() {
                                     <li>MS SQl Server</li>
                                     <li>Oracle</li>
                                 </ul>
-                                <h3>Projects by department</h3>
-                                <h4>Monitoring Systems</h4>
+                                <h4>Projects by department</h4>
+                                <h5>Monitoring Systems</h5>
                                 <ul>
                                     <li>Development of monitoring scripts for Databases, SCCM, PKI, etc. (PowerShell, Bash, Perl)</li>
                                     <li>Automatic Confluence documentation of monitoring configuration (Python)</li>
                                     <li>Monitoring of deviations in received data quantity for Data Lake (Python)</li>
                                 </ul>
-                                <h4>Automation & Information Systems</h4>
+                                <h5>Automation & Information Systems</h5>
                                 <ul>
                                     <li>Wrapper API around Confluence to mitigate page updates (Python)</li>
                                 </ul>
-                                <h4>Application Management Advanced</h4>
+                                <h5>Application Management Advanced</h5>
                                 <ul>
                                     <li>App for tracking rented items, with SQL DB (C#)</li>
                                 </ul>
-                                <h4>Datacenter & Network Security</h4>
+                                <h5>Datacenter & Network Security</h5>
                                 <ul>
                                     <li>Configure routers in a lab environment</li>
                                     <li>Script for reading/updating router configuration via SSH (Python)</li>
                                 </ul>
-                                <h4>Microsoft Services</h4>
+                                <h5>Microsoft Services</h5>
                                 <ul>
                                     <li>Script to migrate old wiki pages to Confluence (Python)</li>
                                 </ul>
@@ -100,7 +100,7 @@ export function Resume() {
                                     The company specializes in the production of non-interruptable power supplies.
                                     During my 6 month internship I was able to work in almost all departments.
                                 </p>
-                                <h3>Tasks:</h3>
+                                <h4>Tasks:</h4>
                                 <ul>
                                     <li>Developing the software side of a semi automatic board tester</li>
                                     <li>UI for visualizing measurement data</li>
@@ -147,7 +147,7 @@ export function Resume() {
                             title: "Programming Languages etc.",
                             subtitle: "Python, Rust, TypeScript, SQL, ...",
                             description: <>
-                                <h3>Recently</h3>
+                                <h4>Recently</h4>
                                 <ul>
                                     <li>Python</li>
                                     <li>Rust</li>
@@ -155,7 +155,7 @@ export function Resume() {
                                     <li>SQL (Athena, Oracle, MS SQL)</li>
                                     <li>HTML</li>
                                 </ul>
-                                <h3>Been a while</h3>
+                                <h4>Been a while</h4>
                                 <ul>
                                     <li>C#</li>
                                     <li>C++ (Arduino)</li>

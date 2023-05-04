@@ -26,17 +26,17 @@ export function ResumeEntry({title, subtitle, description, timeframe, open, onCl
         >
             <div className="flex grow justify-between">
                 <div>
-                    <p className="text-xl">{title}</p>
+                    <h3>{title}</h3>
                     {subtitle ? <p className="text-sm text-gray-500">{subtitle}</p> : null}
                 </div>
                 {timeframe ? (
-                    <p className="text-sm text-gray-500 ml-2">{timeframe}</p>
+                    <p className="text-sm text-gray-500 ml-2 text-right whitespace-nowrap">{timeframe}</p>
                 ) : null}
             </div>
             {description ? (
                 <Collapse open={open}>
                     <hr/>
-                    <p>{description}</p>
+                    {description}
                 </Collapse>
             ) : null}
         </div>
