@@ -175,6 +175,17 @@ export function Resume() {
                             title: "Tools",
                             subtitle: "Jenkins, Kubernetes, Docker",
                         },
+                        {
+                            title: "Operating Systems",
+                            subtitle: "Linux (Debian, Arch), Windows",
+                            description: <>
+                                <h4>Linux</h4>
+                                <ul>
+                                    <li>Set up VMs/containers with it at work and home</li>
+                                    <li>Using it on my personal computer since 2015</li>
+                                </ul>
+                            </>
+                        },
                     ]}
                 />
             </div>
