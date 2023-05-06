@@ -1,23 +1,7 @@
-import React, {ReactNode} from 'react';
+import React from 'react';
 import {NavLink, Outlet} from "react-router-dom";
 import {GitHubIcon, LinkedInIcon} from "../../util/Icon";
-
-type ExternalLinkProps = {
-    to: string;
-    children: ReactNode;
-};
-function ExternalLink({to, children}: ExternalLinkProps) {
-    return (
-        <a
-            className="p-1 opacity-70 hover:opacity-100"
-            href={to}
-            target="_blank"
-            rel="noreferrer"
-        >
-            {children}
-        </a>
-    );
-}
+import {ExternalLink} from "../../util/ExternalLink";
 
 export function Root() {
     return (
@@ -28,8 +12,8 @@ export function Root() {
                     <NavLink to="resume">Résumé</NavLink>
                 </div>
                 <div className="external flex pr-0.5">
-                    <ExternalLink to="https://github.com/ottermata"><GitHubIcon/></ExternalLink>
-                    <ExternalLink to="https://www.linkedin.com/in/ottermata"><LinkedInIcon/></ExternalLink>
+                    <ExternalLink className="p-1" to="https://github.com/ottermata"><GitHubIcon/></ExternalLink>
+                    <ExternalLink className="p-1" to="https://www.linkedin.com/in/ottermata"><LinkedInIcon/></ExternalLink>
                 </div>
             </nav>
             <div className="content max-w-fit mt-1 mx-auto">
