@@ -22,18 +22,20 @@ export function Resume() {
                             subtitle: "Software Developer",
                             description: <ul>
                                 <li>
-                                    Backend (& frontend) for a self service portal
+                                    Backend (& frontend) for a website
                                     <ul className="pl-4">
                                         <li>Python, FastAPI, async</li>
                                         <li>TypeScript, React</li>
                                         <li>MongoDB, Redis</li>
+                                        <li>Kubernetes, Docker</li>
                                     </ul>
                                 </li>
                                 <li>
-                                    Custom API for the ITSM/CMDB tool
+                                    Custom API around an ITSM/CMDB tool
                                     <ul className="pl-4">
                                         <li>Python, Litestar, async</li>
                                         <li>Redis</li>
+                                        <li>Kubernetes, Docker</li>
                                     </ul>
                                 </li>
                                 <li>Automation of company wide processes</li>
@@ -41,9 +43,15 @@ export function Resume() {
                                     Big Data, Business Analytics
                                     <ul className="pl-4">
                                         <li>AWS Lambda, S3, Athena, DynamoDB</li>
-                                        <li>Importing data into S3 from various Databases and APIs</li>
-                                        <li>Creating views to simplify consumption of raw data sources</li>
-                                        <li>Transforming data sources for consumption</li>
+                                        <li>Python</li>
+                                        <li>Kubernetes, Docker</li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    Creating internal software/tools
+                                    <ul className="pl-4">
+                                        <li>Python</li>
+                                        <li>Rust</li>
                                     </ul>
                                 </li>
                             </ul>,
@@ -141,7 +149,7 @@ export function Resume() {
                     items={[
                         {
                             title: "Languages",
-                            subtitle: "English, German",
+                            subtitle: "German (native), English (fluent, CEFR C2)",
                         },
                         {
                             title: "Programming Languages etc.",
