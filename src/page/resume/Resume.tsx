@@ -18,8 +18,8 @@ export function Resume() {
                     title="Professional experience"
                     items={[
                         {
-                            title: "q.beyond AG",
-                            subtitle: "Software Developer",
+                            title: "Software Developer",
+                            subtitle: "q.beyond AG, Germany",
                             description: <ul>
                                 <li>
                                     Backend (& frontend) for a website
@@ -58,8 +58,8 @@ export function Resume() {
                             timeframe: "February 2019 - Present",
                         },
                         {
-                            title: "q.beyond AG",
-                            subtitle: "Apprenticeship",
+                            title: "Apprenticeship",
+                            subtitle: "q.beyond AG, Germany",
                             description: <>
                                 <h4>Used Languages & Software</h4>
                                 <ul>
@@ -98,11 +98,11 @@ export function Resume() {
                                     <li>Script to migrate old wiki pages to Confluence (Python)</li>
                                 </ul>
                             </>,
-                            timeframe: "September 2016 - Febuary 2019",
+                            timeframe: "September 2016 - January 2019",
                         },
                         {
-                            title: "Konzept Energietechnik",
-                            subtitle: "Internship",
+                            title: "Internship",
+                            subtitle: "Konzept Energietechnik GmbH, Germany",
                             description: <>
                                 <p>
                                     The company specializes in the production of non-interruptable power supplies.
